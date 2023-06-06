@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About TravelEase</title>
+  <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="frontend/styles/main.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="navbar-section px-lg-5">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html"><img src="frontend/images/travelease.svg" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="credible_information.html">Get Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact us</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="aboutus.html">About TravelEase</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Our Service
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Hotel Reservation</a>
+              <a class="dropdown-item" href="#">Finding Tour Guide</a>
+              <a class="dropdown-item" href="#">Money Exchange</a>
+            </div>
+          </li>
+        </ul>
+        <!-- mobile button -->
+        <form action="" class="form-inline d-sm-block d-md-none">
+          <a href="index.html">
+            <button class="btn btn-login my-2 my-sm-0 px-4 w-100 mx-2">Explore Now</button>
+          </a>
+        </form>
+        <!-- desktop button -->
+        <form action="" class="form-inline my-2 my-lg-0 d-none d-md-block d-md-none">
+          <a href="index.html" class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+            Explore Now
+          </a>
+        </form>
+      </div>
+    </nav>
+  </div>
+  <!-- image-video -->
+  <section class="section-aboutus">
+    <div class="container">
+      <div class="row header-title align-items-center" style="padding-top: 150px">
+        <div class="title col-lg-6 col-sm-12 my-5">
+          <h1>Get closer and more familiar with TravelEase, your traveling companion</h1>
+        </div>
+        <div class="title col-lg-6 col-sm-12 my-5">
+          <p class="mb-4">
+            With TravelEase by your side, you'll unlock a world of personalized travel experiences tailored to your unique preferences and desires. From expertly curated itineraries to insider tips and recommendations, TravelEase will guide you on a journey of discovery.
+          </p>
+          <a href="contact.html" class="buton-cta">Contact Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="image-video" onclick="openPopup()">
+        <img src="frontend/images/aboutus.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="popup" id="videoPopup">
+      <div class="popup-content">
+        <div id="videoPlayer"></div>
+        <span class="close" onclick="closePopup()"><img src="frontend/images/closeicon.jpg" alt=""> &times;</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- feature-item -->
+  <section class="section1 our-story text-center">
+    <h2>"Explore the Extraordinary <br> with TravelEase: <span>Your Ultimate <br> Travel Companion</span> </h2>
+    <div class="about-us-content" style="margin-top: 48px;">
+      <span>About Us</span> <br>
+
+      Welcome to TravelEase, your ultimate destination for unforgettable travel experiences. At TravelEase, we believe that
+      travel has the power to inspire, educate, and transform lives. With our passion for exploration and dedication
+      to exceptional service, we strive to create extraordinary journeys that leave a lasting impact.
+      <br><br>
+      Our Philosophy <br>
+
+      At TravelEase, we are driven by a simple philosophy: to make travel more than just a vacation, but an opportunity
+      for personal growth and enrichment. We believe that the world is a vast and diverse playground, waiting to be
+      discovered. Our aim is to connect travelers with unique destinations, immerse them in vibrant cultures, and
+      provide authentic experiences that go beyond the ordinary.
+      <br><br>
+      Our Expert Team <br>
+
+      Behind the scenes, we have a team of experienced travel enthusiasts who are deeply passionate about what they
+      do. Our travel experts have traversed the globe, seeking out hidden gems and curating the most captivating
+      itineraries for our discerning travelers. With their extensive knowledge and dedication, they ensure that every
+      aspect of your journey is meticulously planned, allowing you to relax and fully enjoy your adventure.
+      <br><br>
+      Unforgettable Experiences <br>
+
+      At TravelEase, we believe that travel is not just about ticking off landmarks, but about creating memories that will
+      last a lifetime. We specialize in crafting unique and immersive experiences that capture the essence of each
+      destination. Whether it's exploring ancient ruins, embarking on a thrilling safari, or indulging in culinary
+      delights, we carefully curate activities that cater to diverse interests and passions.
+    </div>
+    <section class="features" style="margin-top: 150px; margin-bottom: 150px">
+      <div class="container">
+        <div class="row-feature-title text-center mb-5">
+          <h1>
+            All travel conveniences are <br />
+            available on TravelEase services
+          </h1>
+        </div>
+        <div class="row features-row" style="margin-top: 56px">
+          <div class="card card-feature col-lg-3 col-md-6 col-sm-6 text-center" style="border: none">
+            <div class="feature-item">
+              <img src="frontend/images/icon/globe.svg" class="card-img-top mb-3" style="width: 56px" />
+              <div class="card-body text-center">
+                <h5>World Tour With Ease</h5>
+                <p class="card-text mt-2">
+                  Some quick example text to build on the card title and make
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card card-feature col-lg-3 col-md-6 col-sm-6 text-center" style="border: none">
+            <div class="feature-item">
+              <img src="frontend/images/icon/shield.svg" class="card-img-top mb-3" style="width: 56px" />
+              <div class="card-body text-center">
+                <h5>Guaranteed Security</h5>
+                <p class="card-text mt-2">
+                  Some quick example text to build on the card title and make
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card card-feature col-lg-3 col-md-6 col-sm-6 text-center" style="border: none">
+            <div class="feature-item">
+              <img src="frontend/images/icon/coinhand.svg" class="card-img-top mb-3" style="width: 56px" />
+              <div class="card-body text-center">
+                <h5>Cheapest Price</h5>
+                <p class="card-text mt-2">
+                  Some quick example text to build on the card title and make
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card card-feature col-lg-3 col-md-6 col-sm-6 text-center" style="border: none">
+            <div class="feature-item">
+              <img src="frontend/images/icon/diamond.svg" class="card-img-top mb-3" style="width: 56px" />
+              <div class="card-body text-center">
+                <h5>10 Years Experience</h5>
+                <p class="card-text mt-2">
+                  Some quick example text to build on the card title and make
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- funfact about travelease -->
+  <section class="section" style="margin: 100px 0px;">
+    <div class="section-funfact " style="padding: 80px 32px;">
+      <div class="row text-center" style="width: 50%; margin: auto; margin-bottom: 40px;">
+        <h2>See how these statistics answer your doubts</h2>
+        <p class="mt-4">Let the undeniable evidence and trends revealed by these statistics be your guiding light, as they answer your questions, challenge misconceptions, and bring forth a new level of knowledge. Explore the world of possibilities that unfold before you.</p>
+      </div>
+      <div class="row" style="width: 90%; margin: auto;">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <h3>540B</h3>
+            <p>active listings worldwide.</p>
+            <small>On 23 December 2022</small>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <h3>540B</h3>
+            <p>active listings worldwide.</p>
+            <small>On 23 December 2022</small>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <h3>540B</h3>
+            <p>active listings worldwide.</p>
+            <small>On 23 December 2022</small>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <h3>540B</h3>
+            <p>active listings worldwide.</p>
+            <small>On 23 December 2022</small>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-1" style="width: 90%; margin: auto;">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <h3>540B</h3>
+            <p>active listings worldwide.</p>
+            <small>On 23 December 2022</small>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <h3>540B</h3>
+            <p>active listings worldwide.</p>
+            <small>On 23 December 2022</small>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <h3>540B</h3>
+            <p>active listings worldwide.</p>
+            <small>On 23 December 2022</small>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <h3>540B</h3>
+            <p>active listings worldwide.</p>
+            <small>On 23 December 2022</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- our team -->
+  <section class="container">
+    <div class="row header-title align-items-center">
+      <div class="title col-lg-6 col-sm-12 my-5">
+        <h2 style="font-weight: 600; font-size: 3rem;">Meet our great friends <br> and co-workers</h2>
+      </div>
+      <div class="title col-lg-6 col-sm-12 my-5">
+        <p class="mb-4">
+         Allow us to introduce you to our exceptional circle of great friends and co-workers. Within this remarkable group, you will find individuals who inspire, support, and collaborate with each other to achieve extraordinary results.
+        </p>
+      </div>
+    </div>
+    <div class="row" style="justify-content: space-between;">
+      <div class="col-lg-3 col-md-6 col-sm-12 team-member">
+        <img src="frontend/images/team1.png" alt="Person 1">
+        <h3 class="mt-3">Angelia Arine</h3>
+        <p>Data Engineer</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 team-member">
+        <img src="frontend/images/team2.png" alt="Person 2">
+        <h3 class="mt-3">Mike Wazowski</h3>
+        <p>Founder & CTO</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 team-member">
+        <img src="frontend/images/team3.png" alt="Person 3">
+        <h3 class="mt-3">Clara Citra</h3>
+        <p>VP of Marketing</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 team-member">
+        <img src="frontend/images/team4.png" alt="Person 3">
+        <h3 class="mt-3">Marry Jane</h3>
+        <p>Software Engineer</p>
+      </div>
+      <!-- Tambahkan lebih banyak anggota tim di sini -->
+    </div>
+  </section>
+
+  <!-- faq -->
+  <section style="margin: 100px 0px 100px 0px;">
+    <div class="row text-center" style="width: 50%; margin: auto; margin-bottom: 40px;">
+      <h2 style="font-weight: 600; font-size: 3rem;">Don't Worry, Get Answers From Your Confusion</h2>
+    </div>
+    <div class="container text-center faq-container">
+      <div class="faq-item">
+        <div class="faq-question">
+          How do I make a reservation?
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer text-left"><br> Making a reservation is easy! Simply visit our website and search for your
+          desired destination and travel dates. Once you find the perfect option, follow the prompts to complete your
+          reservation online <br><br></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          What payment methods do you accept?
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer text-left"> <br> We accept various payment methods, including credit cards (Visa, Mastercard,
+          American Express), debit cards, and online payment platforms such as PayPal <br><br> </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          Can I make changes to my reservation?
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer text-left"><br> Yes, you can make changes to your reservation, depending on the specific terms
+          and conditions of your booking. Please contact our customer support team for assistance with any
+          modifications you need. <br><br></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          What is your cancellation policy?
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer text-left"><br> Our cancellation policy varies depending on the type of booking and the specific
+          provider. Please review the terms and conditions provided during the reservation process or contact our
+          customer support team for more information.<br><br></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          Do you offer travel insurance?
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer text-left"><br> Yes, we offer travel insurance options to provide you with peace of mind during
+          your trip. You can select the appropriate insurance coverage during the reservation process or inquire with
+          our customer support team for more details.<br><br></div>
+      </div>
+
+
+      <a class="btn btn-primary btn-login border-0 py-3 px-4" href="contact.html">
+        Contact Us
+      </a>
+    </div>
+
+  </section>
+
+  <footer
+      class="text-white"
+      style="background-color: #15191e; padding: 80px 0px"
+    >
+      <div class="container">
+        <div class="row justify-content-center m-auto">
+          <div class="col-md-3">
+            <img src="frontend/images/xplore-white.svg" alt="" />
+            <ul class="row list-unstyled">
+              <li class="sosmed"><a href="#">Instagram</a></li>
+              <li class="sosmed"><a href="#">Twitter</a></li>
+              <li class="sosmed"><a href="#">Tele</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6 class="mb-4">Platform</h6>
+            <ul class="list-unstyled">
+              <li><a href="#">Analytic</a></li>
+              <li><a href="#">Planning</a></li>
+              <li><a href="#">Collaboration</a></li>
+              <li><a href="#">Data Management</a></li>
+              <li><a href="#">Integration</a></li>
+              <li><a href="#">Solution</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6 class="mb-4">Resources</h6>
+            <ul class="list-unstyled">
+              <li><a href="#">Customer</a></li>
+              <li><a href="#">Strategic Finances</a></li>
+              <li><a href="#">Ebooks & Guide</a></li>
+              <li><a href="#">Webinars & Event</a></li>
+              <li><a href="#">Podcast & Video</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6 class="mb-4">Xplore</h6>
+            <ul class="list-unstyled">
+              <li><a href="#">Finance</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Human Resources</a></li>
+              <li><a href="#">Sales Marketing</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  <script src="frontend/libraries/jquery/jquery-3.7.0.min.js"></script>
+  <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+  <script src="frontend/libraries/retina/retina.min.js"></script>
+  <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+  <script>
+    function openPopup() {
+      var popup = document.getElementById("videoPopup");
+      popup.style.display = "block";
+
+      var videoPlayer = document.getElementById("videoPlayer");
+      var iframe = document.createElement("iframe");
+      iframe.setAttribute(
+        "src",
+        "frontend/images/Bali in 8k ULTRA HD HDR -  Paradise of Asia (60 FPS).mp4"
+      );
+      iframe.setAttribute("frameborder", "0");
+      iframe.setAttribute("allowfullscreen", "true");
+      iframe.style.width = "100%";
+      iframe.style.height = "75vh";
+      videoPlayer.appendChild(iframe);
+    }
+
+    function closePopup() {
+      var popup = document.getElementById("videoPopup");
+      popup.style.display = "none";
+
+      var videoPlayer = document.getElementById("videoPlayer");
+      videoPlayer.innerHTML = "";
+    }
+
+    const faqItems = document.getElementsByClassName("faq-item"); //mendeklarasikan variabel faqItems
+
+    for (let i = 0; i < faqItems.length; i++) {
+      const question = faqItems[i].querySelector(".faq-question");
+      const answer = faqItems[i].querySelector(".faq-answer");
+      const icon = faqItems[i].querySelector("i");
+
+      question.addEventListener("click", function () {
+        if (answer.style.maxHeight) {
+          answer.style.maxHeight = null;
+          icon.style.transform = "rotate(0deg)";
+        } else {
+          answer.style.maxHeight = answer.scrollHeight + "px";
+          icon.style.transform = "rotate(180deg)";
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>
